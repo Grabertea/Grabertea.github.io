@@ -1,4 +1,9 @@
-﻿# Table of Contents
+﻿---
+layout: default
+title: GPA Calculator
+---
+
+# Table of Contents
 1. [Introduction](#intro)
 2. [Requirements](#requirements)
 3. [Installation](#install)  
@@ -34,9 +39,11 @@ Unzip the zip file using WinRAR or 7Zip.
 Open up an IDLE shell from your python installation. Click on the File tab, and select "open".
 
 <img src="https://i.imgur.com/bSr1qgm.png">
+
 Navigate to where the CalculateGPA.py file is located on your machine. Select it and click the open button.
 
 <img src="https://i.imgur.com/IBvwzCo.png">
+
 On the window that opens, click on the Run tab and select "run module".
 
 <img src="https://i.imgur.com/ycvng63.png">
