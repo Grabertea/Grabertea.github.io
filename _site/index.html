@@ -1,148 +1,66 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>GPA Calculator</title>
-  <meta charset="UTF-8">
-</head>
-<body>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>GPA Calculator | Project 2 of Technical Writing</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="GPA Calculator" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Project 2 of Technical Writing" />
+<meta property="og:description" content="Project 2 of Technical Writing" />
+<link rel="canonical" href="/" />
+<meta property="og:url" content="/" />
+<meta property="og:site_name" content="GPA Calculator" />
+<script type="application/ld+json">
+{"url":"/","@type":"WebSite","headline":"GPA Calculator","name":"GPA Calculator","description":"Project 2 of Technical Writing","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="GPA Calculator" /></head>
+<body><header class="site-header" role="banner">
 
-<h1>GPA Calculator</h1>
+  <div class="wrapper"><a class="site-title" rel="author" href="/">GPA Calculator</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
 
-<h2>Table of Contents</h2>
+        <div class="trigger"></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="home">
+</div>
 
-<ol>
-<li><a href="#intro">Introduction</a></li>
-<li><a href="#requirements">Requirements</a></li>
-<li><a href="#install">Installation</a>  </li>
-<li><a href="#usage">Usage</a></li>
-<li><a href="#notes">Notes</a></li>
-<li><a href="#trouble">Troubleshooting</a></li>
-<li><a href="#con">Contributing</a></li>
-<li><a href="#support">Support</a></li>
-<li><a href="#license">License</a> <br />
-<br></li>
-</ol>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
 
-<h2>GPA Calculator Introduction <a name="intro"></a></h2>
+  <div class="wrapper">
 
-<p>This is a simple program that calculates your semster and/or cumulative GPA based
-on your grades in the courses you took and how many hours the  various courses are.
-<br>  </p>
+    <h2 class="footer-heading">GPA Calculator</h2>
 
-<h2>Requirements <a name="requirements"></a></h2>
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">GPA Calculator</li><li><a class="u-email" href="mailto:grabertea@appstate.edu">grabertea@appstate.edu</a></li></ul>
+      </div>
 
-<p>To run this software, you will need to have Python installed.
-You can download that <a href="https://www.python.org/downloads/">here.</a></p>
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/Grabertea"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">Grabertea</span></a></li></ul>
+</div>
 
-<p>You will also need <a href="https://www.rarlab.com/download.htm">WinRAR</a> or <a href="https://www.7-zip.org/">7Zip</a> to open the .zip containing the CalculateGPA.py file.
-<br>  </p>
+      <div class="footer-col footer-col-3">
+        <p>Project 2 of Technical Writing</p>
+      </div>
+    </div>
 
-<h2>Installation <a name="install"></a></h2>
+  </div>
 
-<p>To use this program, download the zip file from <a href="https://github.com/Grabertea/CalculateGPA/archive/master.zip">here.</a>
-Unzip the zip file using WinRAR or 7Zip.
-<br>  </p>
-
-<h2>Usage <a name="usage"></a></h2>
-
-<h3>Step 1</h3>
-
-<p>Open up an IDLE shell from your python installation. Click on the File tab, and select "open".</p>
-
-<p><img src="https://i.imgur.com/bSr1qgm.png"></p>
-
-<p>Navigate to where the CalculateGPA.py file is located on your machine. Select it and click the open button.</p>
-
-<p><img src="https://i.imgur.com/IBvwzCo.png"></p>
-
-<p>On the window that opens, click on the Run tab and select "run module".</p>
-
-<p><img src="https://i.imgur.com/ycvng63.png"></p>
-
-<h3>Step 2</h3>
-
-<p>You will be asked if it is you first semester. Type "y" for yes and "n" for no.
-<code>python
-Is this your first semester (y/n)?
-</code></p>
-
-<p>If you entered "y", the program will jump to Step 3.</p>
-
-<p>If you entered "n", then you will be futher prompted to enter your total number of earned credits, and your current cumulative GPA.</p>
-
-<p><code>python
-Is this your first semester (y/n)? n
-Enter total number of earned credits: 65
-Enter your current cumulative GPA: 3.65
-</code></p>
-
-<h3>Step 3</h3>
-
-<p>Enter the letter grade (A-F) you recieved for a specific course. See <a href="#notes">Notes.</a>
-<code>python
-Enter grade (hit Enter if done): A
-</code></p>
-
-<h3>Step 4</h3>
-
-<p>For the letter grade you entered in Step 3, enter the number of credit hours for that course.
-<code>python
-Enter number of credits: 3
-</code></p>
-
-<h3>Step 5</h3>
-
-<p>Repeat Steps 3 and 4 for your remaining courses, then hit the ENTER key when prompted to enter your next letter grade.
-Once you hit ENTER, your semester GPA and new cumulative GPA will be printed out.
-```python
-Enter grade (hit Enter if done): A
-Enter number of credits: 3
-Enter grade (hit Enter if done): B
-Enter number of credits: 4
-Enter grade (hit Enter if done): C
-Enter number of credits: 3
-Enter grade (hit Enter if done): A
-Enter number of credits: 4
-Enter grade (hit Enter if done): F
-Enter number of credits: 1
-Enter grade (hit Enter if done): </p>
-
-<p>Your semester GPA is 3.07
-Your new cumulative GPA is 3.54
-```
-<br> </p>
-
-<h2>Notes <a name="notes"></a></h2>
-
-<ul>
-<li>This does not support letter grades with a +/-, such as A+, C-, etc. </li>
-<li>Hitting Enter at the beginning of step 3 without adding a grade will cause the program to crash.</li>
-<li>If this is your first semester, your semester and cumulative GPA will be the same.
-<br>  </li>
-</ul>
-
-<h2>Troubleshooting <a name="trouble"></a></h2>
-
-<p>If you have trouble finding IDLE on your computer, go to where your applications are stored on your machine, and search for "IDLE" or "Python".
-<br>  </p>
-
-<h2>Contributing <a name="con"></a></h2>
-
-<p>Source code located <a href="https://github.com/Grabertea/CalculateGPA">here.</a>
-You can submit a pull request, or email me at 
-grabertea@appstate.edu with any suggestions you have.
-<br>  </p>
-
-<h2>Support <a name="support"></a></h2>
-
-<p>If you run into any problems, you 
-can email me at grabertea@appstate.edu
-<br></p>
-
-<h2>License <a name="license"></a></h2>
-
-<p><a href="https://choosealicense.com/licenses/mit/">MIT</a></p>
-
+</footer>
 </body>
-</html>
 
+</html>
