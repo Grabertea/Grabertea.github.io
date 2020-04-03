@@ -30,7 +30,7 @@ url: "https://grabertea.github.io" # the base hostname & protocol for your site,
 github_username:  Grabertea
 
 # Build settings
-theme: minima
+theme: jekyll-theme-merlot
 plugins:
   - jekyll-feed
 
