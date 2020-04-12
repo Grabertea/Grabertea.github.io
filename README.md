@@ -9,7 +9,7 @@
 8. [License](#license)  
 <br>
 
-# GPA Calculator <a name="intro"></a>  
+## Introduction <a name="intro"></a>  
 This is a simple program that calculates your semster and/or cumulative GPA based
 on your grades in the courses you took and how many hours the various courses are.
 <br>  
