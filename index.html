@@ -1,18 +1,17 @@
 ---
-layout: home
+layout: default
 permalink: /calculategpa/
 ---
 
 <h1>GPA Calculator</h1>
 
-<h2>Table of Contents</h2>
+<h1>Table of Contents</h1>
 
 <ol>
 <li><a href="#intro">Introduction</a></li>
 <li><a href="#requirements">Requirements</a></li>
 <li><a href="#install">Installation</a>  </li>
 <li><a href="#usage">Usage</a></li>
-<li><a href="#notes">Notes</a></li>
 <li><a href="#trouble">Troubleshooting</a></li>
 <li><a href="#con">Contributing</a></li>
 <li><a href="#support">Support</a></li>
@@ -20,10 +19,10 @@ permalink: /calculategpa/
 <br></li>
 </ol>
 
-<h2>GPA Calculator Introduction <a name="intro"></a></h2>
+<h1>GPA Calculator <a name="intro"></a></h1>
 
 <p>This is a simple program that calculates your semster and/or cumulative GPA based
-on your grades in the courses you took and how many hours the  various courses are.
+on your grades in the courses you took and how many hours the various courses are.
 <br>  </p>
 
 <h2>Requirements <a name="requirements"></a></h2>
@@ -44,79 +43,157 @@ Unzip the zip file using WinRAR or 7Zip.
 
 <h3>Step 1</h3>
 
-<p>Open up an IDLE shell from your python installation. Click on the File tab, and select "open".</p>
+<p>Open up an IDLE shell from your python installation. </p>
+
+<p><img src="https://i.imgur.com/cHBd5Yz.png"></p>
+
+<h3>Step 2</h3>
+
+<p>Click on the File tab, and select "open".</p>
 
 <p><img src="https://i.imgur.com/bSr1qgm.png"></p>
 
-<p>Navigate to where the CalculateGPA.py file is located on your machine. Select it and click the open button.</p>
+<h3>Step 3</h3>
+
+<p>Navigate to the folder the CalculateGPA.py file is located on your machine. </p>
+
+<h3>Step 4</h3>
+
+<p>Select it and click the open button.</p>
 
 <p><img src="https://i.imgur.com/IBvwzCo.png"></p>
+
+<h3>Step 5</h3>
 
 <p>On the window that opens, click on the Run tab and select "run module".</p>
 
 <p><img src="https://i.imgur.com/ycvng63.png"></p>
 
-<h3>Step 2</h3>
+<h3>Step 6</h3>
 
-<p>You will be asked if it is you first semester. Type "y" for yes and "n" for no.
-<code>python
+<p>You will be asked if it is you first semester. Type "y" for yes and "n" for no.</p>
+
+<p><code>
 Is this your first semester (y/n)?
 </code></p>
 
-<p>If you entered "y", the program will jump to Step 3.</p>
+<p><em>Notes: If you entered "y", the program will jump to <a href="#step9">Step 9.</a></em></p>
 
-<p>If you entered "n", then you will be futher prompted to enter your total number of earned credits, and your current cumulative GPA.</p>
+<p><em>If you entered "n", then you will continue to Step 7.</em></p>
 
-<p><code>python
+<h3>Step 7</h3>
+
+<p>You should now enter your total number of earned credits. </p>
+
+<p><code>
 Is this your first semester (y/n)? n
+</code></p>
+
+<p><code>
 Enter total number of earned credits: 65
+</code></p>
+
+<h3>Step 8</h3>
+
+<p>And now enter your current cumulative GPA.</p>
+
+<p><code>
+Is this your first semester (y/n)? n
+</code></p>
+
+<p><code>
+Enter total number of earned credits: 65
+</code></p>
+
+<p><code>
 Enter your current cumulative GPA: 3.65
 </code></p>
 
-<h3>Step 3</h3>
+<h3>Step 9 <a name="step9"></a></h3>
 
-<p>Enter the letter grade (A-F) you recieved for a specific course. See <a href="#notes">Notes.</a>
-<code>python
+<p>Enter the letter grade (A-F) you recieved for a specific course.</p>
+
+<p><em>Notes: This does not support letter grades with a +/-, such as A+, C-, etc.</em></p>
+
+<p><em>Hitting Enter at the beginning of step 3 without adding a grade will cause the program to crash.</em></p>
+
+<p><code>
 Enter grade (hit Enter if done): A
 </code></p>
 
-<h3>Step 4</h3>
+<h3>Step 10</h3>
 
-<p>For the letter grade you entered in Step 3, enter the number of credit hours for that course.
-<code>python
+<p>For the letter grade you entered in Step 9, enter the number of credit hours for that course.</p>
+
+<p><code>
 Enter number of credits: 3
 </code></p>
 
-<h3>Step 5</h3>
+<h3>Step 11</h3>
 
-<p>Repeat Steps 3 and 4 for your remaining courses, then hit the ENTER key when prompted to enter your next letter grade.
-Once you hit ENTER, your semester GPA and new cumulative GPA will be printed out.
-```python
+<p>Repeat Steps 9 and 10 for your remaining courses.</p>
+
+<p><code>
 Enter grade (hit Enter if done): A
+</code></p>
+
+<p><code>
 Enter number of credits: 3
+</code></p>
+
+<p><code>
 Enter grade (hit Enter if done): B
+</code></p>
+
+<p><code>
 Enter number of credits: 4
+</code></p>
+
+<p><code>
 Enter grade (hit Enter if done): C
+</code></p>
+
+<p><code>
 Enter number of credits: 3
+</code></p>
+
+<p><code>
 Enter grade (hit Enter if done): A
+</code></p>
+
+<p><code>
 Enter number of credits: 4
+</code></p>
+
+<p><code>
 Enter grade (hit Enter if done): F
+</code></p>
+
+<p><code>
 Enter number of credits: 1
-Enter grade (hit Enter if done): </p>
+</code></p>
 
-<p>Your semester GPA is 3.07
+<h3>Step 12</h3>
+
+<p>Once you are done, hit the ENTER key when prompted to enter your next letter grade.</p>
+
+<p><em>Notes: Once you hit ENTER, your semester GPA and new cumulative GPA will be printed out.</em></p>
+
+<p><em>If this is your first semester, your semester and cumulative GPA will be the same.</em></p>
+
+<p><code>
+Enter grade (hit Enter if done):
+</code></p>
+
+<p><code>
+Your semester GPA is 3.07
+</code></p>
+
+<p><code>
 Your new cumulative GPA is 3.54
-```
-<br> </p>
+</code></p>
 
-<h2>Notes <a name="notes"></a></h2>
-
-<ul>
-<li>This does not support letter grades with a +/-, such as A+, C-, etc. </li>
-<li>Hitting Enter at the beginning of step 3 without adding a grade will cause the program to crash.</li>
-<li>If this is your first semester, your semester and cumulative GPA will be the same.
-<br>  </li>
-</ul>
+<p><br></p>
 
 <h2>Troubleshooting <a name="trouble"></a></h2>
 
@@ -139,7 +216,3 @@ can email me at grabertea@appstate.edu
 <h2>License <a name="license"></a></h2>
 
 <p><a href="https://choosealicense.com/licenses/mit/">MIT</a></p>
-
-</body>
-</html>
-
