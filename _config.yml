@@ -21,15 +21,14 @@
 title: GPA Calculator
 email: grabertea@appstate.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Project 2 of Technical Writing
-  Eddie Grabert
+  Project 2 of Technical Writing - Eddie Grabert
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  Grabertea
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
 
