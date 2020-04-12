@@ -101,7 +101,7 @@ Enter the letter grade (A-F) you recieved for a specific course.
 
 *Notes: This does not support letter grades with a +/-, such as A+, C-, etc.*
 
-*Hitting Enter at the beginning of step 3 without adding a grade will cause the program to crash.*
+*Hitting Enter at the beginning of step 9 without adding a grade will cause the program to crash.*
 	
 ```
 Enter grade (hit Enter if done): A
